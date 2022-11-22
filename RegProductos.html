@@ -1,0 +1,40 @@
+<html>nombreProducto
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registro de Usuarios</title>
+        <link rel="stylesheet" href="css/estilos.css"/>
+    </head>
+    <body>
+        <h1>Registro de Productos</h1>
+        <FORM ACTION="regDBProducto.php" METHOD="POST" class="form">
+            <div>
+                <h3>Datos del Producto</h3>
+                Nombre del producto: </br>
+                <input type="text" name="nombreProducto"></br>
+                Categoría del producto: </br>
+                <SELECT name = "categProd">
+                    <OPTION VALUE="Audio">Audio</OPTION>
+                    <OPTION VALUE="Celular">Celulares</OPTION>
+                    <OPTION VALUE="Coches">Vechículos</OPTION>
+                    <OPTION VALUE="Electrodomestico">Electrodomesticos</OPTION> 
+                    <OPTION VALUE="Joyeria">Joyería</OPTION>
+                    <OPTION VALUE="Juguetue">Juguetes</OPTION>
+                    <OPTION VALUE="Laptop">Laptops</OPTION>
+                    <OPTION VALUE="Mueble">Muebles</OPTION>
+                    <OPTION VALUE="Ropa">Ropa</OPTION>
+                    <OPTION VALUE="Tablet">Tablets</OPTION>
+                    <OPTION VALUE="Tarjetas">Tarjetas de regalo</OPTION>
+                    <OPTION VALUE="TV">TV y Vídeo</OPTION>
+                    <OPTION VALUE="VideoJuegos">Videojuegos</OPTION>
+                </SELECT></br>
+                Precio del producto: </br>
+                <input type="number" name="PrecioProducto"></br>
+                <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
+                    <input type="file" name="imagen" />   
+            </div>
+            </br>
+            <input id="regs" type="submit" value="Registrar">
+        </FORM>
+    </body>
+</html>

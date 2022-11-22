@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registro de Vendedores</title>
+        <link rel="stylesheet" href="css/estilos.css"/>
+    </head>
+    <body>
+        <h1>Registro de Vendedores</h1>
+        <FORM ACTION="regDBVendedores.php" METHOD="POST" class="form">
+            <div>
+                <h3>Datos personales</h3>
+                Nombre: </br>
+                <input type="text" name="nombre"></br>
+                Apellido: </br>
+                <input type="text" name="apellido"></br>
+                Teléfono: </br>
+                <input type="text" name="telVend"></br>
+                Correo: </br>
+                <input type="email" name="correo"></br>
+                Usuario: </br>
+                <input type="text" name="userVend"></br>
+                Contraseña: </br>
+                <input type="password" name="pswdVend"></br>
+            </div>
+            <div>
+                <h3>Dirección</h3>
+                Estado:</br>
+                <SELECT NAME="estado">
+                    <OPTION VALUE="Ags">Aguascalientes</OPTION>
+                    <OPTION VALUE="BC">Baja California</OPTION>
+                    <OPTION VALUE="BCS">Baja California Sur</OPTION>
+                    <OPTION VALUE="Camp">Campeche</OPTION>
+                    <OPTION VALUE="Coah">Coahuila</OPTION>
+                    <OPTION VALUE="Col">Colima</OPTION>
+                    <OPTION VALUE="Chis">Chiapas</OPTION>
+                    <OPTION VALUE="Chih">Chihuahua</OPTION>
+                    <OPTION VALUE="CDMX">Ciudad de México</OPTION>
+                    <OPTION VALUE="Dgo">Durango</OPTION>
+                    <OPTION VALUE="Gto">Guanajuato</OPTION>
+                    <OPTION VALUE="Gro">Guerrero</OPTION>
+                    <OPTION VALUE="Hgo">Hidalgo</OPTION>
+                    <OPTION VALUE="Jal">Jalisco</OPTION>
+                    <OPTION VALUE="EdoMex">Estado de México</OPTION>
+                    <OPTION VALUE="Mich">Michoacán</OPTION>
+                    <OPTION VALUE="Mor">Morelos</OPTION>
+                    <OPTION VALUE="Nay">Nayarit</OPTION>
+                    <OPTION VALUE="NL">Nuevo León</OPTION>
+                    <OPTION VALUE="Oax">Oaxaca</OPTION>
+                    <OPTION VALUE="Pue">Puebla</OPTION>
+                    <OPTION VALUE="Qro">Querétaro</OPTION>
+                    <OPTION VALUE="QR">Quintana Roo</OPTION>
+                    <OPTION VALUE="SLP">San Luis Potosí</OPTION>
+                    <OPTION VALUE="Sin">Sinaloa</OPTION>
+                    <OPTION VALUE="Son">Sonora</OPTION>
+                    <OPTION VALUE="Tab">Tabasco</OPTION>
+                    <OPTION VALUE="Tams">Tamaulipas</OPTION>
+                    <OPTION VALUE="Tlax">Tlaxcala</OPTION>
+                    <OPTION VALUE="Ver">Veracruz</OPTION>
+                    <OPTION VALUE="Yuc">Yucatán</OPTION>
+                    <OPTION VALUE="Zac">Zacatecas</OPTION>
+                </SELECT></br>
+                Ciudad: </br>
+                <input type="text" name="ciudad"></br>
+                Calle: </br>
+                <input type="text" name="calle"></br>
+                Número exterior:</br>
+                <input type="number" name="NumExt"></br>
+            </div>
+            </br>
+            <input id="regs" type="submit" value="Registrar">
+        </FORM>
+    </body>
+</html>
