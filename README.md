@@ -9,6 +9,9 @@ There are two main roles that a user can have in the system: <br>
 * __Buyers__: People who can aquire tickets by paying a specific fee stablished by a seller.
 * __Sellers__: People who can login to sell a product that they own by making a raffle.<br><br>
 
+## Architecture of the project
+![Architecture](/img/architecture.png) <br><br>
+
 ## Project Setup
 1. Clone the project repository on your local machine.<br>
 HTTPS:
