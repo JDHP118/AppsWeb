@@ -1,5 +1,5 @@
 # AppsWeb
-This is a Demo developed by Jose Herrera, Renato Arcos Guzmán, Eduardo de Jesúsu López Ruiz, and Emérico Pedraza for the 
+This is a Demo developed by Jose Herrera, Renato Arcos, Eduardo de Jesús López, and Emérico Pedraza for the 
 __Analysis and Modeling of Software Systems (AMSS)__ class. <br>
 
 The concept of this project is to create a web application capable of manage a sweepstakes system where people can buy tickets
