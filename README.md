@@ -11,7 +11,7 @@ There are two main roles that a user can have in the system: <br>
 
 ## Project Setup
 1. Clone the project repository on your local machine.<br>
-SSH:
+HTTPS:
    ```bash
    $ git clone https://github.com/JDHP118/AppsWeb.git
    ```
