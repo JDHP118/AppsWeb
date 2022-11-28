@@ -1,9 +1,9 @@
 # AppsWeb
 This is a Demo developed by Jose Herrera, Renato Arcos Guzmán, Eduardo de Jesúsu López Ruiz, and Emérico Pedraza for the 
-__Analysis and Modeling of Software Systems (AMSS)__ class. <br><br>
+__Analysis and Modeling of Software Systems (AMSS)__ class. <br>
 
 The concept of this project is to create a web application capable of manage a sweepstakes system where people can buy tickets
-for an specific product or sell the product via raffle. <br><br>
+for an specific product or sell the product via raffle. <br>
 
 There are two main roles that a user can have in the system: <br>
 * __Buyers__: People who can aquire tickets by paying a specific fee stablished by a seller.
