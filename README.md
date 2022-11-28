@@ -13,5 +13,6 @@ There are two main roles that a user can have in the system: <br>
 1. Clone the project repository on your local machine.<br>
 SSH:
    ```bash
-   $ git clone --recurse-submodules https://github.com/RoBorregos/Robocup-Home.git
+   $ git clone https://github.com/JDHP118/AppsWeb.git
    ```
+2. Open `AppsWeb/index.html` using a web browser or any app to run html files and navigate throw the project.
